@@ -1,3 +1,4 @@
+#SOAL 1
 #Menganalisis Jumlah kalimat dan jumlah kata
 analisisTeks <- function(teks){
   
