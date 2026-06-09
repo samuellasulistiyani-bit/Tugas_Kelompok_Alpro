@@ -1,8 +1,8 @@
 # Program 4
-cek_nip <- function(nip) {
-  tahun <- substr(nip, 1, 4)
-  bulan <- substr(nip, 5, 6)
-  tanggal <- substr(nip, 7, 8)
+cek_nip<-function(nip) {
+  tahun<-substr(nip,1,4)
+  bulan<-substr(nip,5,6)
+  tanggal<-substr(nip,7,8)
   
   if (bulan == "01") {
     nama_bulan <- "Januari"
