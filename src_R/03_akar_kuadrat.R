@@ -15,9 +15,8 @@ akar_persamaan_kuadrat <- function(a, b, c) {
 #Pengujian 1
 akar_persamaan_kuadrat(1,-5,6)
 #Pengujian 2
-akar_persamaan_kuadrat(1,-4,4)
+akar_persamaan_kuadrat(2, -5, 1)
 #Pengujian 3
-akar_persamaan_kuadrat(2,-5,1)
-#Pengujian 4
-akar_persamaan_kuadrat(1,4,5)
-
+akar_persamaan_kuadrat(1, 4, 5)
+#Pengujian 4 (input tidak valid)
+akar_persamaan_kuadrat(1,-4)
