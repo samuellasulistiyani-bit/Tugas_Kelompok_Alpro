@@ -1,4 +1,3 @@
-# SOAL 3
 import math
 
 def akar_persamaan_kuadrat(a, b, c):
@@ -18,6 +17,6 @@ akar_persamaan_kuadrat(1, -5, 6)
 # Pengujian 2
 akar_persamaan_kuadrat(1, -4, 4)
 # Pengujian 3
-akar_persamaan_kuadrat(1, 4, 5)
-# Pengujian 4
 akar_persamaan_kuadrat(2, -5, 1)
+# Pengujian 4
+akar_persamaan_kuadrat(1, 4, 5)
