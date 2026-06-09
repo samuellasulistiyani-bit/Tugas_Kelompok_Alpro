@@ -12,11 +12,11 @@ def akar_persamaan_kuadrat(a, b, c):
         print(f"x1 = {x1:.3f}")
         print(f"x2 = {x2:.3f}")
 
-# contoh 1
-  akar_persamaan_kuadrat(1, -5, 6)
-# contoh 2
-  akar_persamaan_kuadrat(1, -4, 4)
-# contoh 3
-  akar_persamaan_kuadrat(1, 4, 5)
-# contoh 4
-  akar_persamaan_kuadrat(2, -5, 1)
+# Pengujian 1
+akar_persamaan_kuadrat(1, -5, 6)
+# Pengujian 2
+akar_persamaan_kuadrat(1, -4, 4)
+# Pengujian 3
+akar_persamaan_kuadrat(1, 4, 5)
+# Pengujian 4
+akar_persamaan_kuadrat(2, -5, 1)
