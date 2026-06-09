@@ -1,3 +1,4 @@
+# SOAL 2
 K1 = "Saya tak 'kan menyerah."
 
 K2 = 'Ia berkata, "Aku menyayangimu."'
