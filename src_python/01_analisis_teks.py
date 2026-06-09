@@ -1,9 +1,12 @@
 # Program menghitung jumlah kata dan jumlah kalimat
 def hitung_teks(teks):
-    jumlah_kalimat = teks.count('.')
-    jumlah_kata = len(teks.split())
+    if '.' not in teks:
+        print("Input tidak valid: teks harus mengandung minimal satu tanda titik (.) sebagai akhir kalimat.")
+    else:
+        jumlah_kalimat = teks.count('.')
+        jumlah_kata = len(teks.split())
 
-    print(f"Teks tersebut memuat {jumlah_kalimat} kalimat dan {jumlah_kata} kata.")
+        print(f"Teks tersebut memuat {jumlah_kalimat} kalimat dan {jumlah_kata} kata.")
 # contoh 1
   teks = """
 Media sosial saat ini menjadi bagian penting dalam kehidupan masyarakat. Banyak orang menggunakan media sosial untuk berkomunikasi, mencari informasi, dan berbagi pengalaman dengan orang lain. Selain itu, media sosial juga dimanfaatkan oleh pelaku usaha untuk memasarkan produk dan jasa mereka.
