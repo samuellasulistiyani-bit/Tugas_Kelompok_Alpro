@@ -13,12 +13,14 @@ klasifikasi <- function(x1, x2, x3) {
     cluster <- "A"
   } else if (dB < dA && dB < dC) {
     cluster <- "B"
-  } else {
+  } else if (dC < dA && dC < dB) {
     cluster <- "C"
+  } else {
+    cluster <- "tidak termasuk cluster"
   }
   cat("Titik U tergolong Cluster:", cluster, "\n")
 }
 
 klasifikasi(1, 2, 3)
 klasifikasi(8, -5, 6)
-klasifikasi(2, 7, -9)
+klasifikasi(0, 0, 6.5)
