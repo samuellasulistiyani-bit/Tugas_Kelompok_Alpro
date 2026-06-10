@@ -1,8 +1,8 @@
 # Program 4
-cek_nip<-function(nip) {
-  tahun<-substr(nip,1,4)
-  bulan<-substr(nip,5,6)
-  tanggal<-substr(nip,7,8)
+cek_nip <- function(nip) {
+  tahun   <- substr(nip, 1, 4)
+  bulan   <- substr(nip, 5, 6)
+  tanggal <- substr(nip, 7, 8)
   
   if (bulan == "01") {
     nama_bulan <- "Januari"
@@ -29,12 +29,13 @@ cek_nip<-function(nip) {
   } else if (bulan == "12") {
     nama_bulan <- "Desember"
   } else {
-    nama_bulan <- "Bulan tidak valid"
+    cat("Error: Bulan", bulan, "tidak valid, bulan harus antara 01 sampai 12\n")
+    return()
   }
   
-  cat("Tanggal Lahir ASN:", tanggal, nama_bulan, tahun,"\n")
+  cat("Tanggal Lahir ASN:", tanggal, nama_bulan, tahun, "\n")
 }
 
-cek_nip("199301212019031010")
-cek_nip("199812252019098768")
-cek_nip("199904150189087625")
+cek_nip("199301212019031010")   # normal
+cek_nip("199507152017056729")   # normal
+cek_nip("199313212019031010")   # bulan 13, tidak valid
