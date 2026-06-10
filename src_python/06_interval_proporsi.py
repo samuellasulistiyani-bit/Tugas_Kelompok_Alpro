@@ -19,3 +19,6 @@ def interval_kepercayaan(p_hat, n, alpha):
     upper = p_hat + (z*moe)
 
     print("interval kepercayaan :", (lower, upper))
+
+    if lower < 0:
+      print("Peringatan: Batas bawah interval kepercayaan tidak valid karena negatif.")
