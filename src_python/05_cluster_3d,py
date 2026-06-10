@@ -13,5 +13,7 @@ def tentukan_cluster(x1,x2,x3):
         print("titik", U, "termasuk Cluster A")
     elif dB < dA and dB < dC:
         print("titik", U, "termasuk Cluster B")
-    else:
+    elif dC < dA and dC < dB:
         print("titik", U, "termasuk Cluster C")
+    else :
+        print("titik", U, "tidak masuk ke dalam cluster")
