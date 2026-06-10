@@ -1,8 +1,18 @@
 def NIP(nip_input):
   nip_str = str(nip_input)
-  tahun = nip_str[0:4]
+  tahun_str = nip_str[0:4]
   bulan = nip_str[4:6]
-  tanggal = nip_str[6:8]
+  tanggal_str = nip_str[6:8]
+
+  tanggal = int(tanggal_str)
+  if tanggal > 31 :
+    tanggal_str = "Tanggal tidak valid"
+  elif tanggal < 1 :
+    tanggal_str = "Tanggal tidak valid"
+
+  tahun = int(tahun_str)
+  if tahun < 1900 :
+    tahun_str = "Tahun tidak valid"
 
   nama_bulan = ""
   if bulan == "01":
@@ -32,4 +42,4 @@ def NIP(nip_input):
   else:
     nama_bulan = "Bulan tidak valid"
 
-  print("Tanggal Lahir:", tanggal, nama_bulan, tahun)
+  print("Tanggal Lahir:", tanggal_str, nama_bulan, tahun_str)
