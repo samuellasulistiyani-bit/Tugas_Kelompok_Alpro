@@ -10,20 +10,6 @@ def hitung_teks(teks):
         print(f"Teks tersebut memuat {jumlah_kalimat} kalimat dan {jumlah_kata} kata.")
 # Pengujian 1
 teks1 = """
-Media sosial atau disebut juga dengan jejaring sosial, seperti Facebook,
-Twitter, Instagram, dan masih banyak lagi ternyata tidak hanya digunakan
-sebagai tempat berkumpul atau berbagi di dunia maya. Namun, media sosial kini
-juga bisa dimanfaatkan sebagai media untuk mengembangkan sebuah bisnis. Saat ini
-telah banyak para pengusaha yang beralih ke media sosial dalam memasarkan produk
-mereka baik barang ataupun jasa. Beralihnya para pelaku bisnis ke media ini
-dikarenakan jejaring sosial memiliki manfaat yang sangat banyak bagi usaha
-bisnis. Berikut ini adalah alasan mengapa jejaring sosial bisa menjadi alat
-promosi yang paling efektif.
-"""
-hitung_teks(teks1)
-
-# Pengujian 2
-teks2 = """
 Metode penelitian kuantitatif ada 2 (dua) macam yaitu metode eksperimen 
 dan metode survey. Metode eksperimen adalah metode penelitian yang digunakan 
 untuk mencari pengaruh treatment tertentu (perlakuan) dalam kondisi yang 
@@ -34,10 +20,10 @@ group and withholding it form another group and then determining how groups scor
 on an outcome (Creswell, 2013).
 """
 
-hitung_teks(teks2)
+hitung_teks(teks1)
 
 # Pengujian 3
-teks3 = """
+teks2 = """
 Ada dua jenis analisis data yang secara 
 umum dipakai dalam proses penelitian yaitu analisis data kuantitatif dan analisis data 
 kualitatif. Pembagian kedua jenis analisis data penelitian tersebut didasarkan pada 
@@ -51,10 +37,10 @@ menentukan teknik analisis yang akan digunakan oleh seorang peneliti untuk
 menganalisis data yang dikumpulkan dari lapangan.
 """
 
-hitung_teks(teks3)
+hitung_teks(teks2)
 
 # Pengujian 4
-teks4 = """
+teks3 = """
 Literasi digital mencakup kemampuan teknis dan kognitif 
 dalam menggunakan perangkat digital seperti komputer, smartphone, 
 atau internet untuk mengakses informasi, membuat konten, serta berkomunikasi 
@@ -66,4 +52,4 @@ tetapi juga mampu membuat keputusan yang tepat dan bertanggung jawab dalam konte
 digital
 """
 
-hitung_teks(teks4)
+hitung_teks(teks3)
