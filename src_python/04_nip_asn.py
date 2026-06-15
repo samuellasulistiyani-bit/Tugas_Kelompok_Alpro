@@ -11,7 +11,7 @@ def NIP(nip_input):
     tanggal_str = "Tanggal tidak valid"
 
   tahun = int(tahun_str)
-  if tahun < 1900 :
+  if tahun < 1700 :
     tahun_str = "Tahun tidak valid"
 
   nama_bulan = ""
@@ -43,3 +43,7 @@ def NIP(nip_input):
     nama_bulan = "Bulan tidak valid"
 
   print("Tanggal Lahir:", tanggal_str, nama_bulan, tahun_str)
+
+NIP(199301212019031010)
+NIP(200707191246578909)
+NIP(189913322234568907)
