@@ -10,10 +10,6 @@ def NIP(nip_input):
   elif tanggal < 1 :
     tanggal_str = "Tanggal tidak valid"
 
-  tahun = int(tahun_str)
-  if tahun < 1700 :
-    tahun_str = "Tahun tidak valid"
-
   nama_bulan = ""
   if bulan == "01":
     nama_bulan = "Januari"
