@@ -16,7 +16,7 @@ klasifikasi <- function(x1, x2, x3) {
   } else if (dC < dA && dC < dB) {
     cluster <- "C"
   } else {
-    cluster <- "tidak termasuk cluster"
+    cluster <- "titik U masuk ke dalam perbatasan cluster"
   }
   cat("Titik U tergolong Cluster:", cluster, "\n")
 }
