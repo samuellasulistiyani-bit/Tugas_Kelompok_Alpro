@@ -20,9 +20,6 @@ def interval_kepercayaan(p_hat, n, alpha):
 
     print("interval kepercayaan :", (lower, upper))
 
-    if lower < 0:
-      print("Peringatan: Batas bawah interval kepercayaan tidak valid karena negatif.")
-
 interval_kepercayaan(0.5, 100, 0.10)
 interval_kepercayaan(0.5, 100, 0.05)
 interval_kepercayaan(-1, 10, 0.05)
