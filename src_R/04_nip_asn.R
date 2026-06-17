@@ -37,5 +37,5 @@ cek_nip <- function(nip) {
 }
 
 cek_nip("199301212019031010")   # normal
-cek_nip("199507152017056729")   # normal
-cek_nip("199313212019031010")   # bulan 13, tidak valid
+cek_nip("199912312019031010")  # kondisi khusus 
+cek_nip("199513212019031010")   # bulan 13, tidak valid
