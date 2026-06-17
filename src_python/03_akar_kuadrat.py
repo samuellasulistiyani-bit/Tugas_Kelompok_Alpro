@@ -1,6 +1,13 @@
+# PROGRAM 3
 import math
 
-def akar_persamaan_kuadrat(a, b, c):
+def akar_persamaan_kuadrat(*args):
+    if len(args) != 3:
+        print("Input tidak valid: masukkan 3 koefisien (a, b, c).")
+        return
+
+    a, b, c = args
+
     D = b**2 - 4*a*c
 
     if D < 0:
