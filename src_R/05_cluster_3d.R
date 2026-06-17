@@ -1,5 +1,10 @@
 # Program 5
 klasifikasi <- function(x1, x2, x3) {
+  if (!is.numeric(c(x1, x2, x3))) {
+    cat("Error: Semua input harus berupa angka\n")
+    return()
+  }
+  
   A <- c(2, 1, 3)
   B <- c(1, -4, 6)
   C <- c(-2, 3, -2)
@@ -21,6 +26,6 @@ klasifikasi <- function(x1, x2, x3) {
   cat("Titik U tergolong Cluster:", cluster, "\n")
 }
 
-klasifikasi(1, 2, 3)
-klasifikasi(8, -5, 6)
-klasifikasi(0, 0, 6.5)
+klasifikasi(1, 2, 3) #normal
+klasifikasi(0, 2, 0.5) #kondisi khusus
+klasifikasi("satu", 2, 3) #tidak valid
