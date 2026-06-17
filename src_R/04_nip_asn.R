@@ -4,6 +4,11 @@ cek_nip <- function(nip) {
   bulan   <- substr(nip, 5, 6)
   tanggal <- substr(nip, 7, 8)
   
+  if (as.numeric(tanggal) < 1 || as.numeric(tanggal) > 31) {
+    cat("Error: Tanggal", tanggal, "tidak valid, tanggal harus antara 01 sampai 31\n")
+    return()
+    }
+  
   if (bulan == "01") {
     nama_bulan <- "Januari"
   } else if (bulan == "02") {
@@ -37,5 +42,5 @@ cek_nip <- function(nip) {
 }
 
 cek_nip("199301212019031010")   # normal
-cek_nip("199912312019031010")  # kondisi khusus 
+cek_nip("199912322019031010")  # kondisi khusus 
 cek_nip("199513212019031010")   # bulan 13, tidak valid
