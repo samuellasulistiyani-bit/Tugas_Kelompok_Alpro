@@ -1,4 +1,4 @@
-# SOAL 1
+# PROGRAM 1
 # Program menghitung jumlah kata dan jumlah kalimat
 def hitung_teks(teks):
     if '.' not in teks:
@@ -22,7 +22,7 @@ on an outcome (Creswell, 2013).
 
 hitung_teks(teks1)
 
-# Pengujian 3
+# Pengujian 2
 teks2 = """
 Ada dua jenis analisis data yang secara 
 umum dipakai dalam proses penelitian yaitu analisis data kuantitatif dan analisis data 
@@ -39,7 +39,7 @@ menganalisis data yang dikumpulkan dari lapangan.
 
 hitung_teks(teks2)
 
-# Pengujian 4
+# Pengujian 3
 teks3 = """
 Literasi digital mencakup kemampuan teknis dan kognitif 
 dalam menggunakan perangkat digital seperti komputer, smartphone, 
