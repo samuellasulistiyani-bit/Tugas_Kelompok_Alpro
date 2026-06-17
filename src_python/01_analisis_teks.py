@@ -4,7 +4,7 @@ def hitung_teks(teks):
     if '.' not in teks:
         print("Input tidak valid: teks harus mengandung minimal satu tanda titik (.) sebagai akhir kalimat.")
     else:
-        jumlah_kalimat = teks.count('.')
+        jumlah_kalimat = len(teks.split("."))-1
         jumlah_kata = len(teks.split())
 
         print(f"Teks tersebut memuat {jumlah_kalimat} kalimat dan {jumlah_kata} kata.")
