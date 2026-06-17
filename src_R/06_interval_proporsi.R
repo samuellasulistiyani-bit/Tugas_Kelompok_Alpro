@@ -23,5 +23,5 @@ interval_kepercayaan <- function(p_hat, n, alpha) {
 }
 
 interval_kepercayaan(0.6, 100, 0.05)   # normal
-interval_kepercayaan(-0.3, 100, 0.05)  # p_hat < 0
+interval_kepercayaan(1, 100, 0.05)  # kondisi khusus (nilai batas)
 interval_kepercayaan(0.6, 100, 0.01)   # alpha tidak valid
