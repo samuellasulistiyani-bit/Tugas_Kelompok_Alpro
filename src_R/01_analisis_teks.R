@@ -21,7 +21,7 @@ on an outcome (Creswell, 2013)."
 hitung_teks(teks1)
 
 #Pengujian 2
-teks3 <-"Salah satu media digital yang cukup populer saat ini adalah media sosial, 
+teks2 <-"Salah satu media digital yang cukup populer saat ini adalah media sosial, 
 yang diantaranya ada instagram, facebook, tiktok, dan lain sebagainya."
 hitung_teks(teks2)
 
