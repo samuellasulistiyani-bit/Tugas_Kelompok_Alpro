@@ -6,9 +6,11 @@ def NIP(nip_input):
 
   tanggal = int(tanggal_str)
   if tanggal > 31 :
-    tanggal_str = "Tanggal tidak valid"
+    print("Error:Tanggal", tanggal, "tidak valid harus berada antara 01 sampai 31")
+    return
   elif tanggal < 1 :
-    tanggal_str = "Tanggal tidak valid"
+    print("Error:Tanggal", tanggal, "tidak valid harus berada antara 01 sampai 31")
+    return
 
   nama_bulan = ""
   if bulan == "01":
@@ -36,10 +38,11 @@ def NIP(nip_input):
   elif bulan == "12":
     nama_bulan = "Desember"
   else:
-    nama_bulan = "Bulan tidak valid"
+    print("Error:Bulan", bulan, "tidak valid harus berada antara 01 sampai 12")
+    return
 
   print("Tanggal Lahir:", tanggal_str, nama_bulan, tahun_str)
-  
+
 NIP(199301212019031010)
 NIP(199912322019031010)
 NIP(199513212019031010)
