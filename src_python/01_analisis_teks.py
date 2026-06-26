@@ -26,7 +26,7 @@ hitung_teks(teks1)
 teks2 = """
 Salah satu media digital yang cukup populer saat ini adalah
 media sosial, yang di antaranya ada instagram, facebook, tiktok,
-dan lain sebagainya
+dan lain sebagainya.
 """
 
 hitung_teks(teks2)
