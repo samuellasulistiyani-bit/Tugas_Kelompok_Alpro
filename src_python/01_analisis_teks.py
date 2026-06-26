@@ -25,7 +25,7 @@ hitung_teks(teks1)
 # Pengujian 2
 teks2 = """
 Salah satu media digital yang cukup populer saat ini adalah
-media sosial, yang di antaranya ada instagram, facebook, tiktok,
+media sosial, yang diantaranya ada instagram, facebook, tiktok,
 dan lain sebagainya.
 """
 
