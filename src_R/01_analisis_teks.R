@@ -21,17 +21,8 @@ on an outcome (Creswell, 2013)."
 hitung_teks(teks1)
 
 #Pengujian 2
-teks2 <- "Ada dua jenis analisis data yang secara 
-umum dipakai dalam proses penelitian yaitu analisis data kuantitatif dan analisis data 
-kualitatif. Pembagian kedua jenis analisis data penelitian tersebut didasarkan pada 
-pendekatan penelitian yang digunakannya yaitu pendekatan penelitian kuantitatif 
-atau pendekatan penelitian kualitatif. Bisa juga pembagian jenis analisis data 
-penelitian ini didasarkan pada jenis data yang di analisisnya, jika jenis datanya berupa 
-data kuantitatif maka teknik analisis datanya juga menggunakan teknik analisis 
-kuantitatif begitu juga sebaliknya jika datanya kualitatif maka teknik analisisnya juga 
-menggunakan teknik analisis data kualitatif. Kedua factor tersebutlah yang 
-menentukan teknik analisis yang akan digunakan oleh seorang peneliti untuk 
-menganalisis data yang dikumpulkan dari lapangan."
+teks2 <- "Salah satu media digital yang cukup populer saat ini adalah media sosial, 
+yang diantaranya ada instagram, facebook, tiktok, dan lain sebagainya."
 hitung_teks(teks2)
 
 #Pengujian 3
